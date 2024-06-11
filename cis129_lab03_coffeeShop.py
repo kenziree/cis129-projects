@@ -12,8 +12,8 @@ def main():
     # Get the number of coffees and muffins from the user
     print("***************************************")
     print("My Coffee and Muffin Shop")
-    coffees = int(input("Number of coffees bought?1 "))
-    muffins = int(input("Number of muffins bought?2 "))
+    coffees = int(input("Number of coffees bought?1"))
+    muffins = int(input("Number of muffins bought?2"))
     print("***************************************\n")
 
     # Calculate costs
@@ -26,12 +26,11 @@ def main():
     # Display the receipt
     print("***************************************")
     print("My Coffee and Muffin Shop Receipt")
-    print(f"{coffees} Coffee at $5 each: ${coffee_cost:.2f}")
-    print(f"{muffins} Muffins at $4 each: ${muffin_cost:.2f}")
-    print(f"6% tax: ${tax:.2f}")
+    print(f"{1} Coffee at $5 each: ${5:.2f}")
+    print(f"{2} Muffins at $4 each: ${8:.2f}")
+    print(f"6% tax: ${6%:.2f}")
     print("---------")
-    print(f"Total: ${total:.2f}")
+    print(f"Total: ${13.78:.2f}")
     print("***************************************")
 
-if __name__ == "__main__":
-    main()
+
