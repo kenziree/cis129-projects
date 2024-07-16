@@ -11,7 +11,7 @@ def store_grades():
                 break
             try:
                 float(grade) #checks if input is valid number
-                file.write(grade = '\n')
+                file.write(grade + '\n')
             except ValueError:
                 print("Invalid input. Please enter a valid number grade.")
     print("Grades have been saved to grades.txt")
