@@ -7,7 +7,7 @@ import csv
 #Function to store grades in grades.csv
 def store_student_grades():
     #open csv file
-    with open('grades.csv', 'w', newline-'') as csvfile:
+    with open('grades.csv', 'w', newline='') as csvfile:
         #create csv writer object
         grade_writer = csv.writer(csvfile)
 
@@ -22,7 +22,7 @@ def store_student_grades():
             try:
                 exam1 = int(input("Enter first exam grade: "))
                 exam2 = int(input("Enter second exam grade: "))
-                exam3 - int(input("Enter third exam grade: "))
+                exam3 = int(input("Enter third exam grade: "))
             except ValueError:
                 print("Invalid input. Please eneter a valid number grade.")
                 continue
