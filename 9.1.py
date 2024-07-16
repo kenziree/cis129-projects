@@ -13,7 +13,7 @@ def store_grades():
                 float(grade) #checks if input is valid number
                 file.write(grade = '\n')
             except ValueError:
-                print("Invalid input. Please enter a valid nukber grade.")
+                print("Invalid input. Please enter a valid number grade.")
     print("Grades have been saved to grades.txt")
 
 #Store grades
